@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="680" viewBox="0 0 1280 680" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">AutoMatch — Sledeći auto? Samo swipe.</title>
+  <desc id="desc">Tamni promotivni baner sa koralnim i zelenim detaljima. Levo je opis aplikacije Tinder swipe za kola, a desno koncept mobilnog ekrana sa ilustracijom automobila i dugmadima za preskakanje i čuvanje. Podaci na ekranu su ilustrativni.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101b29"/><stop offset=".6" stop-color="#0c131e"/><stop offset="1" stop-color="#15232c"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ff7768" stop-opacity=".2"/><stop offset="1" stop-color="#ff7768" stop-opacity="0"/></radialGradient>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2e4148"/><stop offset="1" stop-color="#17232c"/></linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e5f1ee"/><stop offset=".52" stop-color="#b6ceca"/><stop offset="1" stop-color="#7b9696"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#536f7b"/><stop offset="1" stop-color="#1d303c"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" stroke="#fff" stroke-opacity=".035"/></pattern>
+    <clipPath id="rounded"><rect width="1280" height="680" rx="28"/></clipPath>
+    <clipPath id="photo"><rect x="868" y="173" width="268" height="225" rx="19"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1280" height="680" fill="url(#background)"/>
+    <rect width="1280" height="680" fill="url(#grid)"/>
+    <ellipse cx="995" cy="315" rx="365" ry="380" fill="url(#glow)"/>
+    <circle cx="1002" cy="323" r="278" stroke="#34404c" stroke-dasharray="4 11"/>
+    <circle cx="1002" cy="323" r="226" stroke="#27333f"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="64" y="51" width="48" height="48" rx="14" fill="#ff7768"/>
+      <path d="M75 84l13-23 13 23M80 77h16" stroke="#101722" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="128" y="83" fill="#f3f6fa" font-size="30" font-weight="750" letter-spacing="-.8">AutoMatch<tspan fill="#ff7768">.</tspan></text>
+      <rect x="62" y="158" width="247" height="32" rx="16" fill="#182633" stroke="#2b3c4a"/>
+      <circle cx="80" cy="174" r="4" fill="#75e0c1"/>
+      <text x="95" y="180" fill="#b8cad7" font-size="13" font-weight="650" letter-spacing="1.6">TINDER SWIPE ZA KOLA</text>
+
+      <text x="59" y="276" fill="#f3f6fa" font-size="80" font-weight="750" letter-spacing="-3.8">Sledeći auto?</text>
+      <text x="59" y="362" fill="#ff7768" font-size="80" font-weight="750" letter-spacing="-3.8">Samo swipe.</text>
+      <text x="64" y="414" fill="#bac7d3" font-size="23">Tvoj ukus. Tvoj budžet.</text>
+      <text x="64" y="449" fill="#bac7d3" font-size="23">Automobili koje želiš da sačuvaš.</text>
+
+      <rect x="64" y="493" width="223" height="57" rx="16" fill="#75e0c1"/>
+      <text x="88" y="529" fill="#102a26" font-size="20" font-weight="700">Pronađi svoj match</text>
+      <path d="M311 522h35m-9-9 9 9-9 9" stroke="#75e0c1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <path d="M64 593h1152" stroke="#2a3643"/>
+      <text x="64" y="633" fill="#879aad" font-size="14" font-weight="600" letter-spacing="1.5">RMA 2026 / 27</text>
+      <text x="260" y="633" fill="#879aad" font-size="14" font-weight="600" letter-spacing="1.5">TIM 22</text>
+      <text x="1216" y="633" fill="#879aad" font-size="13" text-anchor="end" letter-spacing="1.4">KONCEPT INTERFEJSA · ILUSTRATIVNI PODACI</text>
+    </g>
+
+    <rect x="822" y="88" width="311" height="467" rx="31" fill="#18222c" stroke="#43505b" transform="rotate(-9 977 321)"/>
+    <rect x="863" y="81" width="303" height="470" rx="31" fill="#222b34" stroke="#58606a" transform="rotate(7 1014 316)"/>
+    <rect x="839" y="59" width="326" height="513" rx="39" fill="#070d14" stroke="#586574" stroke-width="2"/>
+    <rect x="850" y="70" width="304" height="491" rx="30" fill="#111b26"/>
+    <rect x="957" y="81" width="90" height="7" rx="3.5" fill="#34414f"/>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="871" y="129" fill="#f0f5fa" font-size="22" font-weight="700">Za tebe<tspan fill="#ff7768">.</tspan></text>
+      <rect x="1060" y="106" width="72" height="31" rx="15" fill="#263340"/>
+      <text x="1096" y="127" fill="#cbd7e1" font-size="13" text-anchor="middle">Filteri</text>
+      <text x="871" y="152" fill="#98aebe" font-size="12">Vozila prema tvojim kriterijumima</text>
+    </g>
+    <rect x="862" y="167" width="280" height="307" rx="23" fill="#1c2a37" stroke="#344454"/>
+    <g clip-path="url(#photo)">
+      <rect x="868" y="173" width="268" height="225" fill="url(#scene)"/>
+      <circle cx="1063" cy="232" r="49" fill="#f7a17d"/>
+      <path d="m855 312 62-64 37 35 44-46 78 76 37-35 41 38v86H855Z" fill="#364c52"/>
+      <path d="m850 337 86-45 44 27 45-18 129 38v71H850Z" fill="#243a43"/>
+      <path d="M858 340h291v76H858Z" fill="#1b2932"/>
+      <path d="M865 380h284" stroke="#a8b2ac" stroke-opacity=".3" stroke-width="2" stroke-dasharray="55 22"/>
+      <ellipse cx="1003" cy="355" rx="119" ry="13" fill="#0b131c" fill-opacity=".8"/>
+      <path d="m890 329 12-25 33-6 30-34c7-7 15-10 26-10h41c14 0 22 4 34 17l28 28 28 11 7 20-4 13H892Z" fill="url(#car)" stroke="#cce0d9" stroke-width="1.4"/>
+      <path d="m946 297 27-29h20v29Zm55-29h29c10 0 17 4 23 10l18 19h-70Z" fill="url(#glass)" stroke="#668086" stroke-width="1.4"/>
+      <path d="M1000 301v36m-49-33-6 32m124-33 7 33M906 328h206" stroke="#6f8b90" stroke-width="1.5"/>
+      <path d="M1012 309h13m-62 0h13" stroke="#526a73" stroke-width="2.7" stroke-linecap="round"/>
+      <path d="m893 319 20-4-3 8h-20" fill="#eaffef"/>
+      <path d="m1115 313 7 3 3 9h-10Z" fill="#ff7d68"/>
+      <path d="M892 337h233" stroke="#455e69" stroke-width="6"/>
+      <circle cx="933" cy="340" r="23" fill="#0d1720"/>
+      <circle cx="933" cy="340" r="14" fill="#85999f"/>
+      <circle cx="933" cy="340" r="8" fill="#263b48"/>
+      <path d="M933 328v24m-12-12h24m-20-8 16 16m-16 0 16-16" stroke="#d5e0dd" stroke-width="2"/>
+      <circle cx="1080" cy="340" r="23" fill="#0d1720"/>
+      <circle cx="1080" cy="340" r="14" fill="#85999f"/>
+      <circle cx="1080" cy="340" r="8" fill="#263b48"/>
+      <path d="M1080 328v24m-12-12h24m-20-8 16 16m-16 0 16-16" stroke="#d5e0dd" stroke-width="2"/>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="883" y="189" width="88" height="27" rx="13.5" fill="#112b28"/>
+      <circle cx="897" cy="202.5" r="3.5" fill="#75e0c1"/>
+      <text x="907" y="207" fill="#a8f1d9" font-size="11" font-weight="600">DOSTUPAN</text>
+      <text x="879" y="425" fill="#f2f6fa" font-size="20" font-weight="650">Gradski hatchback</text>
+      <text x="879" y="451" fill="#a9bac9" font-size="13">2019 · Benzin · Manuelni</text>
+      <text x="1126" y="451" fill="#75e0c1" font-size="18" font-weight="700" text-anchor="end">12.500 €</text>
+    </g>
+    <circle cx="948" cy="513" r="27" fill="#302631" stroke="#5b3d46"/>
+    <path d="m940 505 16 16m0-16-16 16" stroke="#ff958e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="1055" cy="513" r="27" fill="#75e0c1"/>
+    <path d="M1055 525c-4-4-13-9-13-16 0-8 9-10 13-4 4-6 13-4 13 4 0 7-9 12-13 16Z" fill="#163e36"/>
+
+    <g transform="translate(-40 -24) rotate(-8 827 404)">
+      <rect x="743" y="382" width="169" height="44" rx="13" fill="#14372f" stroke="#75e0c1" stroke-width="1.5"/>
+      <path d="m761 404 5 5 10-11" stroke="#75e0c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="788" y="410" fill="#9af0d4" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1">SAČUVANO</text>
+    </g>
+  </g>
+</svg>
