@@ -1,0 +1,34 @@
+name: automatch_backoffice
+publish_to: none
+version: 1.0.0+1
+resolution: workspace
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  domain: any
+  blocs: any
+  flutter_bloc: ^9.1.1
+  go_router: ^18.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cars/
+  fonts:
+    - family: AutoMatch
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+flutter_launcher_icons:
+  windows:
+    generate: true
+    icon_size: 256
+  web:
+    generate: true
+    background_color: "#123c36"
+    theme_color: "#123c36"
+  image_path: assets/brand/icon.png
