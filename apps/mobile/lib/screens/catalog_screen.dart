@@ -94,6 +94,15 @@ class _CatalogScreenState extends State<CatalogScreen> {
           }),
           child: const Text('Prikaži ponovo')),
       ]),
+      if (lastSaved != null) TweenAnimationBuilder<double>(
+        key: ValueKey(lastSaved!.value),
+        tween: Tween(begin: 0.8, end: 1),
+        duration: const Duration(milliseconds: 250),
+        builder: (_, scale, child) => Transform.scale(scale: scale, child: child),
+        child: const Row(mainAxisSize: MainAxisSize.min, children: [
+          Icon(Icons.favorite, color: Color(0xffd85055)),
+          SizedBox(width: 6), Text('Sačuvano'),
+        ])),
       if (listings.isEmpty)
         Expanded(child: Center(child: Column(mainAxisSize: MainAxisSize.min, children: [
           const Text('Nema više automobila za ovaj pregled.'),
@@ -101,15 +110,6 @@ class _CatalogScreenState extends State<CatalogScreen> {
             child: const Text('Promeni filtere')),
         ])))
       else ...[
-        if (lastSaved != null) TweenAnimationBuilder<double>(
-          key: ValueKey(lastSaved!.value),
-          tween: Tween(begin: 0.8, end: 1),
-          duration: const Duration(milliseconds: 250),
-          builder: (_, scale, child) => Transform.scale(scale: scale, child: child),
-          child: const Row(mainAxisSize: MainAxisSize.min, children: [
-            Icon(Icons.favorite, color: Color(0xffd85055)),
-            SizedBox(width: 6), Text('Sačuvano'),
-          ])),
         Text('Još ${listings.length} u redu · levo preskoči, desno sačuvaj'),
         Expanded(child: Center(child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 520),

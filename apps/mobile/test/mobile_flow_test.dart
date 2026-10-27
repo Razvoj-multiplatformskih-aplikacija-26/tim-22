@@ -49,6 +49,16 @@ void main() {
     expect(find.text('Toyota Yaris 2019'), findsOneWidget);
   });
 
+  testWidgets('saving the final car still shows feedback', (tester) async {
+    await start(tester);
+    for (var i = 0; i < 9; i++) {
+      await tap(tester, find.text('Preskoči'));
+    }
+    await tap(tester, find.text('Sačuvaj').last);
+    expect(find.text('Sačuvano'), findsOneWidget);
+    expect(find.text('Nema više automobila za ovaj pregled.'), findsOneWidget);
+  });
+
   testWidgets('budget validates, detail reserves and own reservations update', (tester) async {
     await start(tester);
     await tap(tester, find.byTooltip('Filteri'));
